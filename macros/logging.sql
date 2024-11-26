@@ -1,3 +1,3 @@
 {% macro learn_logging() %}
-    log("Impossible!")
+    log("Impossible!", info=True)
 {% endmacro %}
